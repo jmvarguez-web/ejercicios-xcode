@@ -30,8 +30,8 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="28C" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WkP-VF-10h">
-                                        <rect key="frame" x="0.0" y="-200" width="454" height="295"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28C" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WkP-VF-10h">
+                                        <rect key="frame" x="73" y="95" width="454" height="295"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="250"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -42,6 +42,8 @@
                                 <constraints>
                                     <constraint firstAttribute="centerX" secondItem="PnP-H5-rgI" secondAttribute="centerX" id="Gvf-jw-3W1"/>
                                     <constraint firstItem="PnP-H5-rgI" firstAttribute="top" secondItem="azl-fZ-FMt" secondAttribute="top" constant="10" id="MSY-Dr-wwf"/>
+                                    <constraint firstAttribute="centerX" secondItem="WkP-VF-10h" secondAttribute="centerX" id="RW4-4S-Q8f"/>
+                                    <constraint firstAttribute="bottom" secondItem="WkP-VF-10h" secondAttribute="bottom" constant="10" id="eMs-HR-wgR"/>
                                 </constraints>
                             </view>
                         </subviews>
