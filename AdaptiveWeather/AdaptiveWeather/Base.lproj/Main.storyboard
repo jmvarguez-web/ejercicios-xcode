@@ -18,6 +18,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="Vjx-I5-0ni">
+                                <rect key="frame" x="150" y="20" width="300" height="160"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.6705882353" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="azl-fZ-FMt" userLabel="TextContainer">
                                 <rect key="frame" x="0.0" y="200" width="600" height="400"/>
                                 <subviews>
@@ -49,10 +53,6 @@
                                     <rect key="frame" x="0.0" y="400" width="600" height="0.0"/>
                                 </variation>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="Vjx-I5-0ni">
-                                <rect key="frame" x="150" y="20" width="300" height="160"/>
-                                <color key="backgroundColor" red="0.2901960784" green="0.6705882353" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.2901960784" green="0.6705882353" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -61,6 +61,7 @@
                             <constraint firstItem="Vjx-I5-0ni" firstAttribute="width" secondItem="WkP-VF-10h" secondAttribute="width" multiplier="0.45" id="HdN-lC-TxS"/>
                             <constraint firstItem="Vjx-I5-0ni" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="I3a-7i-wKL"/>
                             <constraint firstItem="azl-fZ-FMt" firstAttribute="top" secondItem="Vjx-I5-0ni" secondAttribute="bottom" constant="20" id="QqP-gj-7ZW"/>
+                            <constraint firstItem="y3c-jy-aDJ" firstAttribute="top" secondItem="azl-fZ-FMt" secondAttribute="bottom" constant="-380" id="U0v-Vt-KRo"/>
                             <constraint firstAttribute="trailing" secondItem="azl-fZ-FMt" secondAttribute="trailing" id="cxh-uo-gNt"/>
                             <constraint firstAttribute="centerY" secondItem="Vjx-I5-0ni" secondAttribute="centerY" id="gv6-ua-7wn"/>
                             <constraint firstItem="Vjx-I5-0ni" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="pQV-OF-ywX"/>
@@ -69,6 +70,7 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="U0v-Vt-KRo"/>
                                 <exclude reference="H5V-Gf-YuI"/>
                                 <exclude reference="HdN-lC-TxS"/>
                                 <exclude reference="I3a-7i-wKL"/>
@@ -81,6 +83,7 @@
                         </variation>
                         <variation key="heightClass=compact">
                             <mask key="constraints">
+                                <include reference="U0v-Vt-KRo"/>
                                 <include reference="HdN-lC-TxS"/>
                                 <include reference="I3a-7i-wKL"/>
                                 <include reference="gv6-ua-7wn"/>
