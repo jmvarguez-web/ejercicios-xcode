@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
@@ -17,13 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="Vjx-I5-0ni">
-                                <rect key="frame" x="150" y="20" width="300" height="160"/>
-                                <color key="backgroundColor" red="0.2901960784" green="0.6705882353" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="150" y="20" width="300" height="103"/>
-                                </variation>
-                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="azl-fZ-FMt" userLabel="TextContainer">
                                 <rect key="frame" x="0.0" y="200" width="600" height="400"/>
                                 <subviews>
@@ -38,6 +32,9 @@
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="250"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
+                                            <rect key="frame" x="-33" y="-305" width="666" height="295"/>
+                                        </variation>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.2156862745" green="0.50196078430000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -48,21 +45,45 @@
                                     <constraint firstAttribute="centerX" secondItem="WkP-VF-10h" secondAttribute="centerX" id="RW4-4S-Q8f"/>
                                     <constraint firstAttribute="bottom" secondItem="WkP-VF-10h" secondAttribute="bottom" constant="10" id="eMs-HR-wgR"/>
                                 </constraints>
+                                <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="400" width="600" height="0.0"/>
+                                </variation>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="Vjx-I5-0ni">
+                                <rect key="frame" x="150" y="20" width="300" height="160"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.6705882353" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.2901960784" green="0.6705882353" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="azl-fZ-FMt" secondAttribute="bottom" id="CKv-yP-pQI"/>
                             <constraint firstItem="Vjx-I5-0ni" firstAttribute="height" relation="lessThanOrEqual" secondItem="azl-fZ-FMt" secondAttribute="height" multiplier="0.4" id="H5V-Gf-YuI"/>
+                            <constraint firstItem="Vjx-I5-0ni" firstAttribute="width" secondItem="WkP-VF-10h" secondAttribute="width" multiplier="0.45" id="HdN-lC-TxS"/>
+                            <constraint firstItem="Vjx-I5-0ni" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="I3a-7i-wKL"/>
                             <constraint firstItem="azl-fZ-FMt" firstAttribute="top" secondItem="Vjx-I5-0ni" secondAttribute="bottom" constant="20" id="QqP-gj-7ZW"/>
                             <constraint firstAttribute="trailing" secondItem="azl-fZ-FMt" secondAttribute="trailing" id="cxh-uo-gNt"/>
+                            <constraint firstAttribute="centerY" secondItem="Vjx-I5-0ni" secondAttribute="centerY" id="gv6-ua-7wn"/>
                             <constraint firstItem="Vjx-I5-0ni" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="pQV-OF-ywX"/>
                             <constraint firstItem="azl-fZ-FMt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="paM-Db-Keq"/>
                             <constraint firstAttribute="centerX" secondItem="Vjx-I5-0ni" secondAttribute="centerX" id="zBn-Qi-XfM"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="QqP-gj-7ZW"/>
+                                <exclude reference="paM-Db-Keq"/>
+                                <exclude reference="HdN-lC-TxS"/>
+                                <exclude reference="H5V-Gf-YuI"/>
+                                <exclude reference="I3a-7i-wKL"/>
+                                <exclude reference="gv6-ua-7wn"/>
+                                <exclude reference="pQV-OF-ywX"/>
                                 <exclude reference="zBn-Qi-XfM"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="HdN-lC-TxS"/>
+                                <include reference="I3a-7i-wKL"/>
+                                <include reference="gv6-ua-7wn"/>
                             </mask>
                         </variation>
                     </view>
