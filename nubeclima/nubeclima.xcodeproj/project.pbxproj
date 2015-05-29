@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C48687841B19217800938F40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48687831B19217800938F40 /* AppDelegate.swift */; };
+		C48687861B19217800938F40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48687851B19217800938F40 /* ViewController.swift */; };
+		C48687891B19217800938F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48687871B19217800938F40 /* Main.storyboard */; };
+		C486878B1B19217800938F40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C486878A1B19217800938F40 /* Images.xcassets */; };
+		C486878E1B19217800938F40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C486878C1B19217800938F40 /* LaunchScreen.xib */; };
+		C486879A1B19217800938F40 /* nubeclimaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48687991B19217800938F40 /* nubeclimaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C48687941B19217800938F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C48687761B19217800938F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C486877D1B19217800938F40;
+			remoteInfo = nubeclima;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C486877E1B19217800938F40 /* nubeclima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nubeclima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48687821B19217800938F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C48687831B19217800938F40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C48687851B19217800938F40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C48687881B19217800938F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C486878A1B19217800938F40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C486878D1B19217800938F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C48687931B19217800938F40 /* nubeclimaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nubeclimaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48687981B19217800938F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C48687991B19217800938F40 /* nubeclimaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nubeclimaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C486877B1B19217800938F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48687901B19217800938F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C48687751B19217800938F40 = {
+			isa = PBXGroup;
+			children = (
+				C48687801B19217800938F40 /* nubeclima */,
+				C48687961B19217800938F40 /* nubeclimaTests */,
+				C486877F1B19217800938F40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C486877F1B19217800938F40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C486877E1B19217800938F40 /* nubeclima.app */,
+				C48687931B19217800938F40 /* nubeclimaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C48687801B19217800938F40 /* nubeclima */ = {
+			isa = PBXGroup;
+			children = (
+				C48687831B19217800938F40 /* AppDelegate.swift */,
+				C48687851B19217800938F40 /* ViewController.swift */,
+				C48687871B19217800938F40 /* Main.storyboard */,
+				C486878A1B19217800938F40 /* Images.xcassets */,
+				C486878C1B19217800938F40 /* LaunchScreen.xib */,
+				C48687811B19217800938F40 /* Supporting Files */,
+			);
+			path = nubeclima;
+			sourceTree = "<group>";
+		};
+		C48687811B19217800938F40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C48687821B19217800938F40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C48687961B19217800938F40 /* nubeclimaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C48687991B19217800938F40 /* nubeclimaTests.swift */,
+				C48687971B19217800938F40 /* Supporting Files */,
+			);
+			path = nubeclimaTests;
+			sourceTree = "<group>";
+		};
+		C48687971B19217800938F40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C48687981B19217800938F40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C486877D1B19217800938F40 /* nubeclima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C486879D1B19217800938F40 /* Build configuration list for PBXNativeTarget "nubeclima" */;
+			buildPhases = (
+				C486877A1B19217800938F40 /* Sources */,
+				C486877B1B19217800938F40 /* Frameworks */,
+				C486877C1B19217800938F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nubeclima;
+			productName = nubeclima;
+			productReference = C486877E1B19217800938F40 /* nubeclima.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C48687921B19217800938F40 /* nubeclimaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48687A01B19217800938F40 /* Build configuration list for PBXNativeTarget "nubeclimaTests" */;
+			buildPhases = (
+				C486878F1B19217800938F40 /* Sources */,
+				C48687901B19217800938F40 /* Frameworks */,
+				C48687911B19217800938F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C48687951B19217800938F40 /* PBXTargetDependency */,
+			);
+			name = nubeclimaTests;
+			productName = nubeclimaTests;
+			productReference = C48687931B19217800938F40 /* nubeclimaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C48687761B19217800938F40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Bancorp;
+				TargetAttributes = {
+					C486877D1B19217800938F40 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C48687921B19217800938F40 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C486877D1B19217800938F40;
+					};
+				};
+			};
+			buildConfigurationList = C48687791B19217800938F40 /* Build configuration list for PBXProject "nubeclima" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C48687751B19217800938F40;
+			productRefGroup = C486877F1B19217800938F40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C486877D1B19217800938F40 /* nubeclima */,
+				C48687921B19217800938F40 /* nubeclimaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C486877C1B19217800938F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48687891B19217800938F40 /* Main.storyboard in Resources */,
+				C486878E1B19217800938F40 /* LaunchScreen.xib in Resources */,
+				C486878B1B19217800938F40 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48687911B19217800938F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C486877A1B19217800938F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48687861B19217800938F40 /* ViewController.swift in Sources */,
+				C48687841B19217800938F40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C486878F1B19217800938F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C486879A1B19217800938F40 /* nubeclimaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C48687951B19217800938F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C486877D1B19217800938F40 /* nubeclima */;
+			targetProxy = C48687941B19217800938F40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C48687871B19217800938F40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C48687881B19217800938F40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C486878C1B19217800938F40 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C486878D1B19217800938F40 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C486879B1B19217800938F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C486879C1B19217800938F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C486879E1B19217800938F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nubeclima/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C486879F1B19217800938F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nubeclima/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C48687A11B19217800938F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = nubeclimaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nubeclima.app/nubeclima";
+			};
+			name = Debug;
+		};
+		C48687A21B19217800938F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = nubeclimaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nubeclima.app/nubeclima";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C48687791B19217800938F40 /* Build configuration list for PBXProject "nubeclima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C486879B1B19217800938F40 /* Debug */,
+				C486879C1B19217800938F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C486879D1B19217800938F40 /* Build configuration list for PBXNativeTarget "nubeclima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C486879E1B19217800938F40 /* Debug */,
+				C486879F1B19217800938F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C48687A01B19217800938F40 /* Build configuration list for PBXNativeTarget "nubeclimaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48687A11B19217800938F40 /* Debug */,
+				C48687A21B19217800938F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C48687761B19217800938F40 /* Project object */;
+}
